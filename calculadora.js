@@ -9,8 +9,8 @@ let botonResta = document.getElementById("btn-resta");
 let botonDivision = document.getElementById("btn-division");
 let botonMultiplicacion = document.getElementById("btn-multiplicacion");
 
-let primerNumero;
-let segundoNumero;
+let primerNumero = 0;
+let segundoNumero = 0;
 
 function anotarCalculo() {
     resultadoCalculo.innerText += resultadoCalculo.dataset.numero;
